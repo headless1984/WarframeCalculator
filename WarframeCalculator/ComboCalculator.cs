@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WarframeCalculator
 {
@@ -44,8 +42,8 @@ namespace WarframeCalculator
                             Type = mod.ttlEffect[j].Type,
                             bonusMalus = mod.ttlEffect[j].bonusMalus + (mod.ttlEffect[j].increament * i)
                         });
+                    }
 
-            }
                     completeList.Add(new Mod()
                     {
                         Name = mod.Name,
